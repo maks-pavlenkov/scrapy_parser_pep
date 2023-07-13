@@ -1,6 +1,4 @@
-from pathlib import Path
-
-BASE_DIR = Path(__file__).parent
+from .settings import BASE_DIR
 
 
 class PepParsePipeline:
